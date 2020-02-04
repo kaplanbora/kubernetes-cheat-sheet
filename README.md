@@ -8,7 +8,7 @@ I made this while learning Kubernetes. It is a very broad topic given all the `.
   - <a href="#apply">Apply</a>
   - <a href="#edit">Edit</a>
   - <a href="#logs">Logs</a>
-  - <a href="#tops">Tops</a>
+  - <a href="#top">Top</a>
   - <a href="#rollout">Rollout</a>
 - <a href="#object-definitions">Object Definitions</a>
   - <a href="#pod">Pod</a>
@@ -77,11 +77,11 @@ Get logs of previous pod
 kubectl logs $POD_NAME --previous
 ```
 
-### Tops
+### Top
 Monitor resource usage of all objects of given type or a specific object
 ```bash
-kubectl tops $OBJECT_TYPE
-kubectl tops $OBJECT_TYPE $OBJECT_NAME
+kubectl top $OBJECT_TYPE
+kubectl top $OBJECT_TYPE $OBJECT_NAME
 ```
 
 ### Rollout
